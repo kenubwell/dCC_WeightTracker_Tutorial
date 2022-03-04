@@ -2,7 +2,7 @@ import React from 'react';
 
 const DisplayEntries = (props) => { //Good practice to name the Component the same as the File Name
     return (  
-        <table>
+        <table className='table'>
         <thead>
             <tr>
             <th>Entry Number</th>
