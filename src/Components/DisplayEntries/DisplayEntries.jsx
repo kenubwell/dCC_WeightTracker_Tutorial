@@ -9,7 +9,7 @@ const DisplayEntries = (props) => { //Good practice to name the Component the sa
             </tr>
         </thead>
         <tbody>
-            {props.parentEntries.map((entry, index) => { //use curly brackets to write JavaScript within HTML. The index will iterate the index values (Note it starts at 0)
+            {props.displayEntries.map((entry, index) => { //use curly brackets to write JavaScript within HTML. The index will iterate the index values (Note it starts at 0)
             return (
                 <tr>
                 <td>{index + 1}</td>
